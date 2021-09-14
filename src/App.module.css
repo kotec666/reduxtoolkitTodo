@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #358261;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 25vh auto 0;
+}
+
+.card {
+    width: 496px;
+    height: 525px;
+    background: #FFFEFE;
+    border-radius: 25px;
+}
+
+.card_header {
+    border-bottom: 2px solid black;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card_header_items {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.error {
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    color: red;
+}
+
+.card_header_items input {
+    width: 254px;
+    height: 53px;
+
+    padding: 10px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.card_header_items button {
+    margin-left: 10px;
+    width: 142px;
+    height: 53px;
+    color: #FFFFFF;
+    font-size: 24px;
+    background: #317658;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.card_body {
+    height: 320px;
+    margin-top: 36px;
+    overflow: auto;
+}
+
+.card_body_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.card_body_item {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 427px;
+    height: 63px;
+
+    word-wrap: normal;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card_body_item span {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 3px;
+    background: black;
+    opacity: .7;
+}
+.card_body_item_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.card_body_item_done {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.card_body_item_done img {
+    width: 100%;
+    height: 100%;
+}
+
+.card_body_item_delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.card_body_item_delete img {
+    width: 100%;
+    height: 100%;
+}
+
